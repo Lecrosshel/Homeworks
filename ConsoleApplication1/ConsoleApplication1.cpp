@@ -4,7 +4,7 @@ using namespace std;
 
 void getMinNum() 
 {
-    cout << "**********Получение минимального числа************";
+    cout << "**********Получение минимального числа************\n";
     int firstNum, 
         secondNum;
     cin >> firstNum;
@@ -23,7 +23,7 @@ void getMinNum()
 
 void checkMath() 
 {
-    cout << "**********Навык счетовода************";
+    cout << "**********Навык счетовода************\n";
     int firstNum = rand(), 
         secondNum = rand(), 
         result = firstNum + secondNum, 
@@ -42,7 +42,7 @@ void checkMath()
 
 void checkEven() 
 {
-    cout << "**********Проверка на четность************";
+    cout << "**********Проверка на четность************\n";
     int inputNum;
     cout << "Введите число:";
     cin >> inputNum;
@@ -57,7 +57,7 @@ void checkEven()
 
 void checkDivisionRemains() 
 {
-    cout << "**********Проверка остатка от деления************";
+    cout << "**********Проверка остатка от деления************\n";
     int numberToDivide, divider;
     cin >> numberToDivide;
     cin >> divider;
@@ -72,7 +72,7 @@ void checkDivisionRemains()
 
 void calculateXp()
 {
-    cout << "**********Калькулятор уровней************";
+    cout << "**********Калькулятор уровней************\n";
     int xpValue;
     string charLvlText = "Текущий уровень персонажа:";
     cout << "Введите количество полученного опыта:";
@@ -94,7 +94,7 @@ void calculateXp()
 
 void calculateXpAlt() 
 {
-    cout << "**********Калькулятор уровней(альтернативный вариант)************";
+    cout << "**********Калькулятор уровней(альтернативный вариант)************\n";
     int xpValue;
     cout << "Введите количество полученного опыта:";
     cin >> xpValue;
