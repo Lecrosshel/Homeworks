@@ -190,7 +190,7 @@ void getRestaurantMenuByDay()
 
 void calculateTaxes() 
 {
-    cout << "**********Калькулятор налогов************";
+    cout << "**********Калькулятор налогов************\n";
     int salary,
         minEarningsThreshold = 10000,
         maxEarningsThreshold = 50000,
@@ -218,7 +218,7 @@ void calculateTaxes()
 
 void getAvgSalary() 
 {
-    cout << "**********Калькулятор средней зарплаты************";
+    cout << "**********Калькулятор средней зарплаты************\n";
     int workerSalaryList[3];
     cout << "Введите зарплату первого сотрудника: ";
     cin >> workerSalaryList[0];
