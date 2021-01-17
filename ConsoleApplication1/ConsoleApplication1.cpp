@@ -10,11 +10,11 @@ void getMinNum()
     cin >> firstNum;
     cin >> secondNum;
 
-    if(firstNum > secondNum) {
-        cout << firstNum;
+    if(firstNum < secondNum) {
+        cout << "наибольшее число " << firstNum;
     }
     else if (firstNum < secondNum) {
-        cout << secondNum;
+        cout << "наибольшее число " << secondNum;
     }
     else {
         cout << "Числа равны";
