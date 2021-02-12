@@ -7,10 +7,10 @@ int main() {
     std::cout << "Введите шестизначный номер билета\n";
     cin >> ticketNum;
     int curRemains = ticketNum,
-            curNum = ticketNum,
-            sumA = 0,
-            sumB = 0,
-            cnt = 0;
+        curNum = ticketNum,
+        sumA = 0,
+        sumB = 0,
+        cnt = 0;
 
     while(curRemains) {
         curNum = curRemains % 10;

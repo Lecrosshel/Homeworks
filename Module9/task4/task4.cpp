@@ -5,8 +5,8 @@ using namespace std;
 int main() {
     string name;
     int credit,
-            paid,
-            currentlyPaid = 0;
+        paid,
+        currentlyPaid = 0;
     bool isRepaid = false;
     cout << "Введите имя должника\n";
     cin >> name;

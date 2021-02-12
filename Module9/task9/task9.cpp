@@ -29,7 +29,7 @@ int main() {
     }
 
     int yearCnt = 0,
-            currentDepValue = beginDepValue;
+        currentDepValue = beginDepValue;
 
     while (currentDepValue < desiredDepValue) {
         currentDepValue += (beginDepValue / 100) * growPercent;

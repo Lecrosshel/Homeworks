@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int hour,
-            cnt = 0;
+        cnt = 0;
     std::cout << "Который час?\n";
     cin >> hour;
 

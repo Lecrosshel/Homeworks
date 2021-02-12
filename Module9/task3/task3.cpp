@@ -8,8 +8,8 @@ int main() {
     cout << "Введите число\n";
     cin >> number;
     int curDigitsNum = 0,
-            curRemains = number,
-            cnt = 0;
+        curRemains = number,
+        cnt = 0;
 
     while(!isCalculated) {
         isCalculated = curRemains < 10;

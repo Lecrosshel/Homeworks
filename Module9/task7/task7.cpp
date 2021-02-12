@@ -5,7 +5,7 @@ using namespace std;
 int getNum()
 {
     int num,
-            isCorrectNum = false;
+        isCorrectNum = false;
 
     while (!isCorrectNum) {
         cout << "Введите число\n";
@@ -25,9 +25,9 @@ int getNum()
 int main() {
     int num = getNum();
     int cnt = 0,
-            fibonacciNum = 0,
-            firstNum = 0,
-            secondNum = 1;
+        fibonacciNum = 0,
+        firstNum = 0,
+        secondNum = 1;
 
     while(cnt < num) {
         if (cnt == 1) {
