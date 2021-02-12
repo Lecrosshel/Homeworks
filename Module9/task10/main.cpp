@@ -4,11 +4,11 @@ using namespace std;
 
 int main() {
     int maxNum = 64,
-            minNum = 0;
+        minNum = 0;
     cout << "Загадайте число от 0 до 63\n";
     string answer = "Нет";
     int curStep = maxNum / 2,
-            curNum = 0;
+        curNum = 0;
 
     cout << "Отвечайте \"да\" или \"нет\" в зависимотсти от числа.\n";
     cout << "Как только программа отгадает ответьте, к примеру \"трулио\"\n";
