@@ -11,8 +11,7 @@ int main() {
         curRemains = number,
         cnt = 0;
 
-    while(!isCalculated) {
-        isCalculated = curRemains < 10;
+    while(!curRemains < 10) {
         curRemains /= 10;
         cnt++;
     }

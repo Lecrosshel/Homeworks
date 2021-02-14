@@ -18,6 +18,11 @@ int main() {
         return 1;
     }
 
+    if (a == b) {
+        cout << "Дробь образует целое число 1";
+        return 1;
+    }
+
     int curDivider = 2;
     bool canDivide = false;
 

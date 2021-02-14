@@ -17,8 +17,13 @@ int main() {
     while(!foundNum) {
         curNum = (maxNum + minNum) / 2;
 
-        if(curNum == maxNum || curNum == minNum) {
-            cout << "Ваше число " << curNum;
+        if (minNum == curNum) {
+            cout << "Ваше число " << ++curNum;
+            break;
+        }
+
+        if (maxNum == curNum) {
+            cout << "Ваше число " << --curNum;
             break;
         }
 
