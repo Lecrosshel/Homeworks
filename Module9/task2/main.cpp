@@ -11,11 +11,10 @@ int main() {
     cout << "Введите сумму долга\n";
     cin >> credit;
 
-    while(!isRepaid) {
+    while(!currentlyPaid >= credit) {
         cout << name << ", ваша задолженность составляет " << credit << " рублей.\n";
         cout << "Сколько рублей вы внесете прямо сейчас, чтобы ее погасить?\n";
         cin >> currentlyPaid;
-        isRepaid = currentlyPaid >= credit;
     }
 
     cout << "Кредит успешно погашен.";
